@@ -1,6 +1,4 @@
-/**
- * Created by Vaughn on 3/8/2015.
- */
+
 public class Tut9 {
     public static void main(String args[]){
 
