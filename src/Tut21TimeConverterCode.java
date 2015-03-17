@@ -16,7 +16,6 @@ public class Tut21TimeConverterCode {
         speed = speed*1000/3600;
 
         double time = distance/speed;
-
         //System.out.println(time);
 
         int hrs = (int)time/3600;
