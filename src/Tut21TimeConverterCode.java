@@ -28,6 +28,35 @@ public class Tut21TimeConverterCode {
         int secs = (int)time%60;
         //System.out.println(secs);
 
-        System.out.println("You took "+hrs +" hours, "+mins+" minutes, "+secs+" seconds ");
+        if (hrs==1) {
+            System.out.println("You took " + hrs + " hour, " + mins + " minutes, " + secs + " seconds");
         }
-}
+        if (mins==1){
+            System.out.println("You took "+hrs +" hours, "+mins+" minute, "+secs+" seconds");
+        }
+        if (secs==1){
+            System.out.println("You took "+hrs +" hours, "+mins+" minutes, "+secs+" second");
+        }
+            if (hrs==1 && mins==1) {
+                System.out.println("You took " + hrs + " hour, " + mins + " minute, " + secs + " seconds");
+            }
+                if (mins == 1 && secs == 1) {
+                    System.out.println("You took " + hrs + " hours, " + mins + " minute, " + secs + " second");
+                }
+                    if (hrs == 1 && secs == 1) {
+                        System.out.println("You took " + hrs + " hour, " + mins + " minutes, " + secs + " second");
+                    }
+                        if (hrs == 1 && mins == 1 && secs == 1) {
+
+                            System.out.println("You took " + hrs + " hour, " + mins + " minute, " + secs + " second");
+
+                            if (hrs > 1 && mins > 1 && secs > 1) {
+                                System.out.println("You took " + hrs + " hours, " + mins + " minutes, " + secs + " seconds ");
+                            }
+
+                            if (hrs < 1 ) {
+                                System.out.println("You took " + mins + " minutes, " + secs + " seconds ");
+                            }
+                        }
+                    }
+                }
