@@ -7,15 +7,15 @@ public class Tut29RightAngleTriangle {
     public static void main(String[] args)throws IOException{
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        double a=0, b=0, c=0, hypot=0;
+        int a=0, b=0, c=0, hypot=0;
         System.out.println("Enter length of side 1: ");
-        a = Double.parseDouble(reader.readLine());
+        a = Integer.parseInt(reader.readLine());
 
         System.out.println("Enter length of side 2: ");
-        b = Double.parseDouble(reader.readLine());
+        b = Integer.parseInt(reader.readLine());
 
         System.out.println("Enter length of side 3: ");
-        c = Double.parseDouble(reader.readLine());
+        c = Integer.parseInt(reader.readLine());
 
 
         if (a>b && a>c){
