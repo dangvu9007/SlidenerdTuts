@@ -7,16 +7,14 @@ public class Tut32BMICalculator {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        double weight=0, height=0, bmi=0;
-
         System.out.println("Enter weight in kg: ");
-        weight = Double.parseDouble(reader.readLine());
+        double weight = Double.parseDouble(reader.readLine());
 
         System.out.println("Enter height in cm: ");
-        height = Double.parseDouble(reader.readLine());
+        double height = Double.parseDouble(reader.readLine());
         height = height/100;
 
-        bmi = weight/(height*height);
+        double bmi = weight/(height*height);
 
         if (bmi<18.5){
             System.out.println("Your BMI is "+bmi+" and you are underweight");
