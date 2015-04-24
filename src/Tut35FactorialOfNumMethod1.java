@@ -9,9 +9,9 @@ public class Tut35FactorialOfNumMethod1 {
 
         System.out.println("Enter number: ");
 
-        int num = Integer.parseInt(reader.readLine()), prod=1;
+        int i, num = Integer.parseInt(reader.readLine()), prod=1;
 
-        for(int i=1; i<=num; i++){
+        for(i=1; i<=num; i++){
 
             prod= prod*i;
         }
