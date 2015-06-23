@@ -12,7 +12,7 @@ public class Tut38FindAllFactorsOfANumber {
         double ans;
         num = Integer.parseInt(reader.readLine());
 
-        for (int i=1; i<=num;i++) {
+        for (int i=1; i<=num; i++) {
 
             ans = (double)num / i;
             //System.out.println(ans + " \t" + Math.ceil(ans));
