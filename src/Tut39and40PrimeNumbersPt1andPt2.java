@@ -7,7 +7,6 @@ public class Tut39and40PrimeNumbersPt1andPt2 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
         System.out.println("Enter number: ");
         int num = Integer.parseInt(reader.readLine());
 
