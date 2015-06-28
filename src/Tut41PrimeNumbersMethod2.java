@@ -6,9 +6,7 @@ public class Tut41PrimeNumbersMethod2 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
         System.out.println("Enter number: ");
-
         int num = Integer.parseInt(reader.readLine());
 
         for (int j = 2; j <= num; j++) {
