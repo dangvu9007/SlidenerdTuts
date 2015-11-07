@@ -28,61 +28,88 @@ public class Tut21TimeConverterCode {
         int secs = (int)time%60;
         //System.out.println(secs);
 
-        if (hrs==1) {
-            System.out.println("You took " + hrs + " hour, " + mins + " minutes, " + secs + " seconds");
+        if (hrs==1 && mins==1 && secs==1) {
+            System.out.println("You took " + hrs + " hour, " + mins + " minute, " + secs + " second");
         }
 
-        else if (hrs < 1 && mins<1) {
-            System.out.println("You took " + secs + " seconds");
-        }
-
-        else if (hrs<1 && mins==1){
-            System.out.println("You took "+mins+" minute, "+secs+" seconds");
-        }
-
-        else if (mins==1){
-            System.out.println("You took "+hrs +" hours, "+mins+" minute, "+secs+" seconds");
-        }
-
-        else if (secs==1){
-            System.out.println("You took "+hrs +" hours, "+mins+" minutes, "+secs+" second");
-        }
-
-        else if (hrs==1 && mins==1) {
+        else if (hrs==1 && mins==1 && secs>1) {
             System.out.println("You took " + hrs + " hour, " + mins + " minute, " + secs + " seconds");
         }
 
-        else if (mins == 1 && secs == 1) {
-            System.out.println("You took " + hrs + " hours, " + mins + " minute, " + secs + " second");
+        else if (hrs==1 && mins==1 && secs<1) {
+            System.out.println("You took " + hrs + " hour, " + mins + " minute ");
         }
 
-        else if (hrs == 1 && secs == 1) {
+        else if (hrs==1 && mins>1 && secs==1) {
             System.out.println("You took " + hrs + " hour, " + mins + " minutes, " + secs + " second");
         }
 
-        else if (hrs == 1 && mins == 1 && secs == 1) {
-
-            System.out.println("You took " + hrs + " hour, " + mins + " minute, " + secs + " second");
-            }
-
-        else if (hrs < 1 ) {
-            System.out.println("You took " + mins + " minutes, " + secs + " seconds");
+        else if (hrs==1 && mins>1 && secs>1) {
+            System.out.println("You took " + hrs + " hour, " + mins + " minutes, " + secs + " seconds");
         }
 
-        else if (hrs < 1 && secs<1) {
-            System.out.println("You took " + mins + " minutes");
+        else if (hrs==1 && mins>1 && secs<1) {
+            System.out.println("You took " + hrs + " hour, " + mins + " minutes ");
         }
 
-        else if (hrs >1 && mins<1 && secs>1) {
+        else if (hrs>1 && mins==1 && secs>1){
+            System.out.println("You took "+hrs +" hours, "+mins+" minute, "+secs+" seconds");
+        }
+
+        else if (hrs>1 && mins==1 && secs<1){
+            System.out.println("You took "+hrs +" hours, "+mins+" minute");
+        }
+
+        else if (hrs>1 && mins==1 && secs==1) {
+            System.out.println("You took " + hrs + " hours, " + mins + " minute, " + secs + " second");
+        }
+
+        else if (hrs>1 && mins>1 && secs==1){
+            System.out.println("You took "+hrs +" hours, "+mins+" minutes, "+secs+" second");
+        }
+
+        else if (hrs>1 && mins>1 && secs>1){
+            System.out.println("You took "+ hrs +" hours, "+mins+" minutes, "+secs+" seconds");
+        }
+
+        else if (hrs>1 && mins<1 && secs>1) {
             System.out.println("You took " + hrs + " hours, "+ secs + " seconds");
         }
 
-        else if (hrs > 1 && mins>1 && secs<1) {
+        else if (hrs>1 && mins>1 && secs<1) {
             System.out.println("You took "  + hrs + " hours, "+ mins + " minutes");
         }
 
+        else if (hrs>1 && mins<1 && secs<1) {
+            System.out.println("You took " + hrs + " hours ");
+        }
+
+        else if (hrs<1 && mins<1 && secs>1) {
+            System.out.println("You took " + secs + " seconds");
+        }
+
+        else if (hrs<1 && mins>1 && secs>1) {
+            System.out.println("You took " + mins + " minutes, " + secs + " seconds");
+        }
+
+        else if (hrs<1 && mins==1 && secs>1){
+            System.out.println("You took "+ mins +" minute, "+secs+" seconds");
+        }
+
+        else if (hrs<1 && mins>1 && secs<1) {
+            System.out.println("You took " + mins + " minutes");
+        }
+
+        else if (hrs<1 && mins==1 && secs==1){
+            System.out.println("You took "+ mins +" minute, "+secs+" second");
+        }
+
+        else if (hrs<1 && mins<1 && secs<1){
+            System.out.println("You took less than a second... WOW!!");
+        }
+
         else {
-            System.out.println("You took " + hrs + " hours, " + mins + " minutes, " + secs + " seconds ");
+                System.out.println("Warp speed, Huh?");
         }
     }
 }
