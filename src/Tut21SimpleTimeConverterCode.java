@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Tut21TimeConverterCodeSimple{
+public class Tut21SimpleTimeConverterCode{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter distance travelled in km: ");
@@ -19,12 +19,12 @@ public class Tut21TimeConverterCodeSimple{
         System.out.println(time+"s");
 
         int hrs= (int)time/3600;
-        System.out.println(hrs);
+        System.out.println(hrs+" hours");
         int mins = (int)(time-(hrs*3600))/60;
-        System.out.println(mins);
+        System.out.println(mins+" minutes");
         //int secs = (int)time-(hrs*3600)-(mins*60);
         int secs = (int)time%60;
-        System.out.println(secs);
+        System.out.println(secs+" seconds");
 
     }
 }
