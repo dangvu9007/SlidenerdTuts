@@ -7,7 +7,7 @@ public class Tut26CalculateOvertimeBonus {
 
         BufferedReader reader =new BufferedReader(new InputStreamReader(System.in));
 
-        double hours=0, rate=0, pay=0;
+        double hours, rate, pay;
 
         System.out.println("Enter hours worked: ");
         hours = Double.parseDouble(reader.readLine());
