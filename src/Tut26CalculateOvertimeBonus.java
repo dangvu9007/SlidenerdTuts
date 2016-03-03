@@ -16,17 +16,13 @@ public class Tut26CalculateOvertimeBonus {
         rate = Double.parseDouble(reader.readLine());
 
         if (hours<=40) {
-
             pay= rate*hours;
-            System.out.println("Pay is: "+pay);
         }
 
         else {
-
             pay= rate*40 + (hours-40)*(rate+(0.5*rate));
-            System.out.println("Pay is: " +"$"+pay);
         }
-
+        System.out.println("Pay is: " +"$"+pay);
 
     }
 
