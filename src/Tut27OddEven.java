@@ -7,10 +7,9 @@ public class Tut27OddEven {
     public static void main(String[] args)throws IOException{
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
         System.out.println("Enter number: ");
 
-        double num =  Double.parseDouble(reader.readLine());
+        int num =  Integer.parseInt(reader.readLine());
 
         if (num%2 == 0){
             System.out.println("Even");
