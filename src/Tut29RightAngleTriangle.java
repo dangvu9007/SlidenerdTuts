@@ -7,7 +7,7 @@ public class Tut29RightAngleTriangle {
     public static void main(String[] args)throws IOException{
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        int a=0, b=0, c=0, hypot=0;
+        int a, b, c, hypot;
         System.out.println("Enter length of side 1: ");
         a = Integer.parseInt(reader.readLine());
 
