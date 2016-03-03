@@ -23,7 +23,7 @@ public class Tut29RightAngleTriangle {
             if (hypot*hypot == b*b + c*c) {
                 System.out.println("This is a Right-angle triangle with hypotenuse "+hypot);
             }
-            else{
+            else {
                 System.out.println("Not a Right-angle triangle");
             }
         }
@@ -31,7 +31,8 @@ public class Tut29RightAngleTriangle {
             hypot = b;
             if (hypot*hypot == a*a + c*c) {
                 System.out.println("This is a Right-angle triangle with hypotenuse "+hypot);
-            } else {
+            }
+            else {
                 System.out.println("Not a Right-angle triangle");
             }
         }
@@ -39,7 +40,8 @@ public class Tut29RightAngleTriangle {
             hypot = c;
             if (hypot*hypot == a*a + b*b) {
                 System.out.println("This is a Right-angle triangle with hypotenuse "+hypot);
-            } else {
+            }
+            else {
                 System.out.println("Not a Right-angle triangle");
             }
         }
