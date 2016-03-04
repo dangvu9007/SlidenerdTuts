@@ -6,8 +6,8 @@ public class Tut30Do3SidesMakeTriangle {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        int a=0, b=0, c=0;
-        double p=0, temp=0, area=0;
+        int a, b, c;
+        double p, temp, area;
         System.out.println("Enter length of a; ");
         a = Integer.parseInt(reader.readLine());
 
