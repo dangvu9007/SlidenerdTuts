@@ -17,6 +17,5 @@ public class Tut35FactorialOfNumMethod1 {
         }
         System.out.println("Factorial is "+prod);
 
-
     }
 }
