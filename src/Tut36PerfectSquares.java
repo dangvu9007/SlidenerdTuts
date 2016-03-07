@@ -9,7 +9,7 @@ public class Tut36PerfectSquares {
         //System.out.println("Enter number: ");
         //int num = Integer.parseInt(reader.readLine());
 
-        for (int i = 1; i <= 100; i++) {
+        for (int i=1; i<=100; i++) {
 
             /*
             int num = i;
