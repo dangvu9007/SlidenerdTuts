@@ -19,12 +19,13 @@ public class Tut39and40PrimeNumbersPt1andPt2 {
                 if (ans==Math.ceil(ans)){
                     cnt++;
                 }
-            }//if (cnt==2 && n==num)
-                //System.out.println(num + " is a Prime Number");
+            }if (cnt==2 && n==num)
+                System.out.println(num + " is a Prime Number");
+                cnt = 0;
+                //if (cnt==2)
+                //System.out.println(n + " is a Prime Number");
                 //cnt=0;
-            if (cnt==2)
-                System.out.println(n + " is a Prime Number");
-            cnt=0;
+
         }
     }
 }
