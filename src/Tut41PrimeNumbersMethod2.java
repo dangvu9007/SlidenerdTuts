@@ -12,6 +12,7 @@ public class Tut41PrimeNumbersMethod2 {
         for (int j = 2; j <= num; j++) {
 
             int cnt = 0;
+
             for (int i = 1; i <= j; i++) {
 
                 if (j % i == 0) {
