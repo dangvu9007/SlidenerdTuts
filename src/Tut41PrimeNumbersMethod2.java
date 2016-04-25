@@ -20,7 +20,7 @@ public class Tut41PrimeNumbersMethod2 {
                 }
             }if (cnt == 2) {
                 System.out.println(j + " is a Prime Number");
-            } else {
+            }else {
                 System.out.println(j + " is not a Prime Number");
             }
         }
