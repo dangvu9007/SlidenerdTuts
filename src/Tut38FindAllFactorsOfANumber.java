@@ -9,7 +9,9 @@ public class Tut38FindAllFactorsOfANumber {
         System.out.println("Enter the number ");
 
         int num;
+        //int cnt=0;
         double ans;
+
         num = Integer.parseInt(reader.readLine());
 
         for (int i=1; i<=num; i++) {
@@ -19,7 +21,13 @@ public class Tut38FindAllFactorsOfANumber {
 
             if (ans == Math.ceil(ans)) {
                 System.out.println(i+ " is a factor");
-            }
+                //cnt++;
+            }//if (cnt==2 && i==num){
+               // System.out.println(num+ " is a Prime Number");
+                //cnt=0;
+            //}else if (i==num){
+              //  System.out.println(num+ " is not a Prime Number");
+            //}
         }
 
     }
